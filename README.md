@@ -2,8 +2,8 @@
 ###This list might get bigger while going
 
 * background tasks-----------------------------------working in it----------------------Done
-* tiles update---------------------------------------working in it
-* pushing notifications :broken_heart:
+* tiles update--------------------------------------------working in it----------------------Done
+* pushing notifications :broken_heart:----------------------------working in it----------------------Done
 * filepickers
 * Navegations
 * app life cycle
