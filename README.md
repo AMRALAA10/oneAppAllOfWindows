@@ -1,8 +1,8 @@
 ##Here is a list of features I would include 
 ###This list might get bigger while going
 
-* background tasks                    //working in it
-* tiles update
+* background tasks-----------------------------------working in it----------------------Done
+* tiles update---------------------------------------working in it
 * pushing notifications :broken_heart:
 * filepickers
 * Navegations

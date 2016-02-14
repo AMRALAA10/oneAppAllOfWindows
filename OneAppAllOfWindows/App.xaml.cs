@@ -42,6 +42,9 @@ namespace OneAppAllOfWindows
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
+            BackTasks.MyTimeTableFeeds.Register();
+
+
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
