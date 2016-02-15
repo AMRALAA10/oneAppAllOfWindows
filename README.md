@@ -1,10 +1,10 @@
 ##Here is a list of features I would include 
 ###This list might get bigger while going
 
-* background tasks-----------------------------------working in it----------------------Done
-* tiles update--------------------------------------------working in it----------------------Done
-* pushing notifications :broken_heart:----------------------------working in it----------------------Done
-* filepickers
+* background tasks-----------------------------------working on it----------------------Done
+* tiles update-------------------------------------------working on it----------------------Done
+* pushing notifications :broken_heart:---------------------------working on it----------------------Done
+* filepickers----------------------------------------------working on it
 * Navegations
 * app life cycle
 * secondary tiles :broken_heart:
