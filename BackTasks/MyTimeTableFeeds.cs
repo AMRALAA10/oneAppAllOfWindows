@@ -18,6 +18,8 @@ namespace BackTasks
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             BackgroundTaskDeferral _deferral = taskInstance.GetDeferral();
+            
+
             //background tasks operations here
             UpdateTile();
             _deferral.Complete();

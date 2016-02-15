@@ -43,7 +43,7 @@ namespace OneAppAllOfWindows
         {
 
             BackTasks.MyTimeTableFeeds.Register();
-
+            BackTasks.NotifyUser.Register();
 
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
