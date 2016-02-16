@@ -4,8 +4,8 @@
 * background tasks-----------------------------------working on it----------------------Done
 * tiles update-------------------------------------------working on it----------------------Done
 * pushing notifications :broken_heart:---------------------------working on it----------------------Done
-* filepickers----------------------------------------------working on it
-* Navegations
+* filepickers---------------------------------------------working on it----------------------Done
+* Navegations---------------------------------------------working on it
 * app life cycle
 * secondary tiles :broken_heart:
 * soundcreation

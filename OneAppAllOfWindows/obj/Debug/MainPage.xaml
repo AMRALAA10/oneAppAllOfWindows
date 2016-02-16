@@ -11,8 +11,9 @@
 
         <StackPanel>
         <Image x:Name="pickedPhoto" Width="300" Height="300"></Image>
-        <Button Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="150">open picker</Button>
+        <Button x:ConnectionId='1'                      HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="150">open picker</Button>
         </StackPanel>
         
     </Grid>
 </Page>
+

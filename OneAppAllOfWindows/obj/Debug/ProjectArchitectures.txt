@@ -1,0 +1,2 @@
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\BackTasks\BackTasks.csproj;neutral
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\OneAppAllOfWindows.csproj;neutral

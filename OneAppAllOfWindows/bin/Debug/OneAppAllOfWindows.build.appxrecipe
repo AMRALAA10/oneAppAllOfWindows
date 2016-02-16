@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-8QIK7LH</Machine>
+    <WindowsUser>amral</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fada56d9-3d7a-4dac-a805-c554fc3cc9d4</PackageIdentityName>
+    <IntermediateOutputPath>E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.exe">
+      <PackagePath>OneAppAllOfWindows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\BackTasks\bin\Debug\BackTasks.winmd">
+      <PackagePath>BackTasks.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.xr.xml">
+      <PackagePath>OneAppAllOfWindows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
