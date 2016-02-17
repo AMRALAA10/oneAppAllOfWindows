@@ -1,5 +1,4 @@
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf
-E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\MainPage.xbf
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.xr.xml
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.exe
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.pdb
@@ -11,13 +10,9 @@ E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\OneAppAllOfWindows.csprojResolveAssemblyReference.cache
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\App.g.i.cs
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\App.g.cs
-E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\MainPage.g.i.cs
-E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\MainPage.g.cs
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\XamlTypeInfo.g.cs
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\App.xaml
-E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\MainPage.xaml
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\App.xbf
-E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\MainPage.xbf
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\XamlSaveStateFile.xml
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\OneAppAllOfWindows.exe
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\OneAppAllOfWindows.pdb
@@ -34,3 +29,13 @@ E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\ProjectArchitectures.txt
 E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.build.appxrecipe
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Details.g.i.cs
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Details.g.cs
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Index.g.i.cs
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Index.g.cs
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Details.xaml
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Index.xaml
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Details.xbf
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\Places\Index.xbf
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Details.xbf
+E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Index.xbf

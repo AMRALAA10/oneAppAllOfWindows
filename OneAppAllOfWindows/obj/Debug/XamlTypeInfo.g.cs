@@ -124,15 +124,27 @@ namespace OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "OneAppAllOfWindows.MainPage";
+            _typeNameTable = new string[9];
+            _typeNameTable[0] = "OneAppAllOfWindows.Places.Details";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "OneAppAllOfWindows.Common.ObservableDictionary";
+            _typeNameTable[4] = "Object";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "OneAppAllOfWindows.Common.NavigationHelper";
+            _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[8] = "OneAppAllOfWindows.Places.Index";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::OneAppAllOfWindows.MainPage);
+            _typeTable = new global::System.Type[9];
+            _typeTable[0] = typeof(global::OneAppAllOfWindows.Places.Details);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::OneAppAllOfWindows.Common.ObservableDictionary);
+            _typeTable[4] = typeof(global::System.Object);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::OneAppAllOfWindows.Common.NavigationHelper);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[8] = typeof(global::OneAppAllOfWindows.Places.Index);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -167,7 +179,16 @@ namespace OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::OneAppAllOfWindows.MainPage(); }
+        private object Activate_0_Details() { return new global::OneAppAllOfWindows.Places.Details(); }
+        private object Activate_3_ObservableDictionary() { return new global::OneAppAllOfWindows.Common.ObservableDictionary(); }
+        private object Activate_8_Index() { return new global::OneAppAllOfWindows.Places.Index(); }
+        private void MapAdd_3_ObservableDictionary(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
+            var newKey = (global::System.String)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -179,9 +200,11 @@ namespace OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  OneAppAllOfWindows.MainPage
+            case 0:   //  OneAppAllOfWindows.Places.Details
                 userType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_Details;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -193,16 +216,100 @@ namespace OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 3:   //  OneAppAllOfWindows.Common.ObservableDictionary
+                userType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_3_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Object
+                xamlType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  String
+                xamlType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  OneAppAllOfWindows.Common.NavigationHelper
+                userType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  OneAppAllOfWindows.Places.Index
+                userType = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_Index;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
 
 
+        private object get_0_Details_DefaultViewModel(object instance)
+        {
+            var that = (global::OneAppAllOfWindows.Places.Details)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_1_Details_NavigationHelper(object instance)
+        {
+            var that = (global::OneAppAllOfWindows.Places.Details)instance;
+            return that.NavigationHelper;
+        }
+        private object get_2_Index_DefaultViewModel(object instance)
+        {
+            var that = (global::OneAppAllOfWindows.Places.Index)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_3_Index_NavigationHelper(object instance)
+        {
+            var that = (global::OneAppAllOfWindows.Places.Index)instance;
+            return that.NavigationHelper;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "OneAppAllOfWindows.Places.Details.DefaultViewModel":
+                userType = (global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OneAppAllOfWindows.Places.Details");
+                xamlMember = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "OneAppAllOfWindows.Common.ObservableDictionary");
+                xamlMember.Getter = get_0_Details_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OneAppAllOfWindows.Places.Details.NavigationHelper":
+                userType = (global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OneAppAllOfWindows.Places.Details");
+                xamlMember = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "OneAppAllOfWindows.Common.NavigationHelper");
+                xamlMember.Getter = get_1_Details_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OneAppAllOfWindows.Places.Index.DefaultViewModel":
+                userType = (global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OneAppAllOfWindows.Places.Index");
+                xamlMember = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "OneAppAllOfWindows.Common.ObservableDictionary");
+                xamlMember.Getter = get_2_Index_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OneAppAllOfWindows.Places.Index.NavigationHelper":
+                userType = (global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OneAppAllOfWindows.Places.Index");
+                xamlMember = new global::OneAppAllOfWindows.OneAppAllOfWindows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "OneAppAllOfWindows.Common.NavigationHelper");
+                xamlMember.Getter = get_3_Index_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }

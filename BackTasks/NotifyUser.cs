@@ -20,10 +20,8 @@ namespace BackTasks
             XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastText03);
             XmlNodeList stringElements = toastXml.GetElementsByTagName("text");
 
-            for (int i = 0; i < stringElements.Length; i++)
-            {
-                stringElements[i].AppendChild(toastXml.CreateTextNode("Line " + i));
-            }
+            stringElements[0].AppendChild(toastXml.CreateTextNode("AMR ALAA"));
+            stringElements[1].AppendChild(toastXml.CreateTextNode("I MADE IT"));
 
             ToastNotification toast = new ToastNotification(toastXml);
 

@@ -22,17 +22,17 @@
     <AppXManifest Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-15T11:45:42.021</Modified>
+      <Modified>2016-02-17T09:16:23.377</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.exe">
       <PackagePath>OneAppAllOfWindows.exe</PackagePath>
-      <Modified>2016-02-16T07:48:25.626</Modified>
+      <Modified>2016-02-17T09:16:21.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\BackTasks\bin\Debug\BackTasks.winmd">
       <PackagePath>BackTasks.winmd</PackagePath>
-      <Modified>2016-02-15T11:45:36.611</Modified>
+      <Modified>2016-02-16T09:25:57.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -66,19 +66,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.xr.xml">
       <PackagePath>OneAppAllOfWindows.xr.xml</PackagePath>
-      <Modified>2016-02-16T07:47:43.166</Modified>
+      <Modified>2016-02-17T09:16:20.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2016-02-14T10:17:20.645</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-02-16T07:47:43.332</Modified>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Details.xbf">
+      <PackagePath>Places\Details.xbf</PackagePath>
+      <Modified>2016-02-17T09:16:20.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Index.xbf">
+      <PackagePath>Places\Index.xbf</PackagePath>
+      <Modified>2016-02-17T09:16:20.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-02-15T11:45:38.386</Modified>
+      <Modified>2016-02-17T09:16:21.325</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

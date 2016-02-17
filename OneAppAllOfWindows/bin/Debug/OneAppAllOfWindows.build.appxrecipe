@@ -54,8 +54,11 @@
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Details.xbf">
+      <PackagePath>Places\Details.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Index.xbf">
+      <PackagePath>Places\Index.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

@@ -1,0 +1,936 @@
+﻿[
+                {
+                    "UniqueId": "c11",
+                    "Title": "c11",
+                    "building": "ssp",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "production workshop",
+                    "Title": "production workshop",
+                    "building": "production",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "nour",
+                    "Title": "nour",
+                    "building": "production",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+
+                {
+                    "UniqueId": "E",
+                    "Title": "E",
+                    "building": "meca",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "N",
+                    "Title": "N",
+                    "building": "meca",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "B",
+                    "Title": "B",
+                    "building": "meca",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "G",
+                    "Title": "G",
+                    "building": "meca",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "seminar hall",
+                    "Title": "seminar hall",
+                    "building": "meca",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "sorour",
+                    "Title": "sorour",
+                    "building": "meca",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "D",
+                    "Title": "D",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "W",
+                    "Title": "W",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "H",
+                    "Title": "H",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 21",
+                    "Title": "hall 21",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 22",
+                    "Title": "hall 22",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 23",
+                    "Title": "hall 23",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "ship design",
+                    "Title": "ship design",
+                    "building": "meca",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 32",
+                    "Title": "hall 32",
+                    "building": "meca",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 34",
+                    "Title": "hall 34",
+                    "building": "meca",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "application lab 2",
+                    "Title": "application lab 2",
+                    "building": "meca",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "applied measurements lab",
+                    "Title": "applied measurements lab",
+                    "building": "meca",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                
+                {
+                    "UniqueId": "hall 42",
+                    "Title": "hall 42",
+                    "building": "meca",
+                    "Floor": "4",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "library",
+                    "Title": "library",
+                    "building": "meca",
+                    "Floor": "4",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 43",
+                    "Title": "hall 43",
+                    "building": "meca",
+                    "Floor": "4",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 44",
+                    "Title": "hall 44",
+                    "building": "meca",
+                    "Floor": "4",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "hall 44 b",
+                    "Title": "hall 44 b",
+                    "building": "meca",
+                    "Floor": "4",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+
+
+                {
+                    "UniqueId": "c12",
+                    "Title": "c12",
+                    "building": "ssp",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "prayer room",
+                    "Title": "prayer room",
+                    "building": "ssp",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c26",
+                    "Title": "c26",
+                    "building": "ssp",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c27",
+                    "Title": "c27",
+                    "building": "ssp",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c28",
+                    "Title": "c28",
+                    "building": "ssp",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c38",
+                    "Title": "c38",
+                    "building": "ssp",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c39",
+                    "Title": "c39",
+                    "building": "ssp",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "c40",
+                    "Title": "c40",
+                    "building": "ssp",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "h41",
+                    "Title": "h41",
+                    "building": "ssp",
+                    "Floor": "2",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+
+
+
+                {
+                    "UniqueId": "hall 1",
+                    "Title": "hall 1",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "L3",
+                    "Title": "L3",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "L5",
+                    "Title": "L5",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "preparatory physics lab",
+                    "Title": "preparatory physics lab",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "preparatory physics lab b",
+                    "Title": "preparatory physics lab b",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "L2",
+                    "Title": "L2",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "L4",
+                    "Title": "L4",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "chemical engineering lab",
+                    "Title": "chemical engineering lab",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "project lab",
+                    "Title": "project lab",
+                    "building": "e3dady",
+                    "Floor": "0",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "L8",
+                    "Title": "L8",
+                    "building": "e3dady",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "P14",
+                    "Title": "P14",
+                    "building": "e3dady",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "preparatory physics lab",
+                    "Title": "preparatory physics lab",
+                    "building": "e3dady",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "physical chemistry lab",
+                    "Title": "physical chemistry lab",
+                    "building": "e3dady",
+                    "Floor": "1",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "P41",
+                    "Title": "P41",
+                    "building": "e3dady",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "P43",
+                    "Title": "P43",
+                    "building": "e3dady",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "P45",
+                    "Title": "P45",
+                    "building": "e3dady",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "P47",
+                    "Title": "P47",
+                    "building": "e3dady",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+                {
+                    "UniqueId": "computer application lab",
+                    "Title": "computer application lab",
+                    "building": "e3dady",
+                    "Floor": "3",
+                    
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                },
+
+
+
+                {
+                    "UniqueId": "k1",
+                    "Title": "k1",
+                    "building": "electricity",
+                    "Floor": "0",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "103",
+                    "Title": "103",
+                    "building": "electricity",
+                    "Floor": "0",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "104",
+                    "Title": "104",
+                    "building": "electricity",
+                    "Floor": "0",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "application lab 7",
+                    "Title": "application lab 7",
+                    "building": "electricity",
+                    "Floor": "0",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "k3",
+                    "Title": "k3",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "k4",
+                    "Title": "k4",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "k5",
+                    "Title": "k5",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "lab 204",
+                    "Title": "lab 204",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "203",
+                    "Title": "203",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "202",
+                    "Title": "202",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "201",
+                    "Title": "201",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "automatic control lab",
+                    "Title": "automatic control lab",
+                    "building": "electricity",
+                    "Floor": "1",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "k6",
+                    "Title": "k6",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "k7",
+                    "Title": "k7",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "lab 304",
+                    "Title": "lab 304",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "303",
+                    "Title": "303",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "302",
+                    "Title": "302",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "301",
+                    "Title": "301",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "electrical communications lab",
+                    "Title": "electrical communications lab",
+                    "building": "electricity",
+                    "Floor": "2",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "central library",
+                    "Title": "central library",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "application lab 5",
+                    "Title": "application lab 5",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "402",
+                    "Title": "402",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "403",
+                    "Title": "403",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "electrical circuits lab",
+                    "Title": "electrical circuits lab",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "measurements & electrical circuits lab",
+                    "Title": "measurements & electrical circuits lab",
+                    "building": "electricity",
+                    "Floor": "3",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "503",
+                    "Title": "503",
+                    "building": "electricity",
+                    "Floor": "4",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "502",
+                    "Title": "502",
+                    "building": "electricity",
+                    "Floor": "4",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "microprocessor application lab",
+                    "Title": "microprocessor application lab",
+                    "building": "electricity",
+                    "Floor": "4",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "electrical circuits lab",
+                    "Title": "electrical circuits lab",
+                    "building": "electricity",
+                    "Floor": "4",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "604",
+                    "Title": "604",
+                    "building": "electricity",
+                    "Floor": "5",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "library",
+                    "Title": "library",
+                    "building": "electricity",
+                    "Floor": "5",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "601",
+                    "Title": "601",
+                    "building": "electricity",
+                    "Floor": "5",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "602",
+                    "Title": "602",
+                    "building": "electricity",
+                    "Floor": "5",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "603",
+                    "Title": "603",
+                    "building": "electricity",
+                    "Floor": "5",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "application lab 6",
+                    "Title": "application lab 6",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                     
+                     
+                },
+                {
+                    "UniqueId": "701",
+                    "Title": "701",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "702",
+                    "Title": "702",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "703",
+                    "Title": "703",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "704",
+                    "Title": "704",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "L71",
+                    "Title": "L71",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "L72",
+                    "Title": "L72",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                },
+                {
+                    "UniqueId": "L74",
+                    "Title": "L74",
+                    "building": "electricity",
+                    "Floor": "7",
+                    "ImagePath": "Assets/img.jpg",
+                    "Description": "Item Description"
+                }
+]  
