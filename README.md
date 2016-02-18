@@ -7,7 +7,9 @@
 * filepickers---------------------------------------------working on it----------------------Done
 * Navegations------------------------------------------working on it----------------------Done
 * app life cycle------------------------------------------working on it----------------------Done
-* secondary tiles :broken_heart:
+* secondary tiles :broken_heart:----------------------------------working on it----------------------Done
+* global styles------------------------------------------working on it----------------------Done
+* local styles--------------------------------------------working on it----------------------Done
 * soundcreation
 * Authentication
 * background download
