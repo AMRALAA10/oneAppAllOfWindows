@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="fada56d9-3d7a-4dac-a805-c554fc3cc9d4" Publisher="CN=amral" Version="1.0.0.0"/>
+  <Identity Name="fada56d9-3d7a-4dac-a805-c554fc3cc9d4" Publisher="CN=amral" Version="1.0.0.0" />
   <Properties>
     <DisplayName>OneAppAllOfWindows</DisplayName>
     <PublisherDisplayName>amral</PublisherDisplayName>
@@ -29,6 +29,12 @@
         </Extension>
         <Extension Category="windows.backgroundTasks" EntryPoint="BackTasks.NotifyUser">
           <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BackTasks.UpdateSeconderyTiles">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
             <Task Type="timer" />
           </BackgroundTasks>
         </Extension>

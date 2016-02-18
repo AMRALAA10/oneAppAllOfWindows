@@ -15,31 +15,23 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-// The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using Windows.UI.StartScreen;
 
 namespace OneAppAllOfWindows.Places
 {
-    /// <summary>
-    /// A basic page that provides characteristics common to most applications.
-    /// </summary>
+
+
     public sealed partial class Details : Page
     {
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
-        /// <summary>
-        /// This can be changed to a strongly typed view model.
-        /// </summary>
         public ObservableDictionary DefaultViewModel
         {
             get { return this.defaultViewModel; }
         }
 
-        /// <summary>
-        /// NavigationHelper is used on each page to aid in navigation and 
-        /// process lifetime management
-        /// </summary>
         public NavigationHelper NavigationHelper
         {
             get { return this.navigationHelper; }
@@ -53,6 +45,53 @@ namespace OneAppAllOfWindows.Places
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
             Application.Current.Suspending += Current_Suspending;
+
+            ToggleAppBarButton(!SecondaryTile.Exists("AMR"));
+            this.PinUnPinCommandButton.Click += PinUnPinCommandButton_Click;
+
+
+        }
+
+
+        /*string displayName = "Secondary tile pinned through app bar";
+        string tileActivationArguments = MainPage.appbarTileId + " was pinned at=" + DateTime.Now.ToLocalTime().ToString();
+        Uri square150x150Logo = new Windows.Foundation.Uri("ms-appx:///Assets/square150x150Tile-sdk.png");
+        TileSize newTileDesiredSize = TileSize.Square150x150;
+        */
+
+
+        private async void PinUnPinCommandButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.SecondaryTileCommandBar.IsSticky = true;
+            if (SecondaryTile.Exists("Amr"))
+            {
+                //UnPin
+                SecondaryTile secTile = new SecondaryTile("Amr");
+                Windows.Foundation.Rect rect = new Rect(20, 20, 2000, 2000);
+                var placment = Windows.UI.Popups.Placement.Above;
+                bool IsUnPinned = await secTile.RequestDeleteForSelectionAsync(rect, placment);
+                ToggleAppBarButton(IsUnPinned);
+            }
+            else
+            {
+                //Pin
+                SecondaryTile secTile = new SecondaryTile("Amr", "Amr Alaa", "AAA", new Uri("ms-appx:///Assets/Wide310x150Logo.scale-100.png"), TileSize.Square150x150);
+                secTile.VisualElements.Square30x30Logo = new Uri("ms-appx:///Assets/Wide310x150Logo.scale-100.png");
+                secTile.VisualElements.ShowNameOnSquare150x150Logo = true;
+                secTile.VisualElements.ShowNameOnSquare310x310Logo = true;
+
+                secTile.VisualElements.ForegroundText = ForegroundText.Dark;
+                
+                Windows.Foundation.Rect rect = new Rect(20, 20, 2000, 2000);
+                var placment = Windows.UI.Popups.Placement.Above;
+                bool isPinned = await secTile.RequestCreateForSelectionAsync(rect,placment);
+                ToggleAppBarButton(isPinned);
+
+            }
+
+            this.BottomAppBar.IsSticky = false;
+            
         }
 
         private void Current_Suspending(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
@@ -63,17 +102,7 @@ namespace OneAppAllOfWindows.Places
 
         }
 
-        /// <summary>
-        /// Populates the page with content passed during navigation. Any saved state is also
-        /// provided when recreating a page from a prior session.
-        /// </summary>
-        /// <param name="sender">
-        /// The source of the event; typically <see cref="Common.NavigationHelper"/>
-        /// </param>
-        /// <param name="e">Event data that provides both the navigation parameter passed to
-        /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
-        /// a dictionary of state preserved by this page during an earlier
-        /// session. The state will be null the first time a page is visited.</param>
+        
         private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
 
@@ -83,14 +112,6 @@ namespace OneAppAllOfWindows.Places
                 f.Values[PassedImage.Name] as string;
         }
 
-        /// <summary>
-        /// Preserves state associated with this page in case the application is suspended or the
-        /// page is discarded from the navigation cache.  Values must conform to the serialization
-        /// requirements of <see cref="Common.SuspensionManager.SessionState"/>.
-        /// </summary>
-        /// <param name="sender">The source of the event; typically <see cref="Common.NavigationHelper"/></param>
-        /// <param name="e">Event data that provides an empty dictionary to be populated with
-        /// serializable state.</param>
         private void navigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
             Windows.Storage.ApplicationDataContainer f = Windows.Storage.ApplicationData.Current.LocalSettings;
@@ -98,15 +119,6 @@ namespace OneAppAllOfWindows.Places
         }
 
         #region NavigationHelper registration
-
-        /// The methods provided in this section are simply used to allow
-        /// NavigationHelper to respond to the page's navigation methods.
-        /// 
-        /// Page specific logic should be placed in event handlers for the  
-        /// <see cref="Common.NavigationHelper.LoadState"/>
-        /// and <see cref="Common.NavigationHelper.SaveState"/>.
-        /// The navigation parameter is available in the LoadState method 
-        /// in addition to page state preserved during an earlier session.
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -125,5 +137,26 @@ namespace OneAppAllOfWindows.Places
         {
             imageNameTextBlock.Text = textBoxToSave.Text;
         }
+
+
+        private void ToggleAppBarButton(bool showPinButton)
+        {
+            if (showPinButton)
+            {
+                this.PinUnPinCommandButton.Label = "Pin to Start";
+                this.PinUnPinCommandButton.Icon = new SymbolIcon(Symbol.Pin);
+            }
+
+            else
+            {
+                this.PinUnPinCommandButton.Label = "Unpin From Start";
+                this.PinUnPinCommandButton.Icon = new SymbolIcon(Symbol.UnPin);
+            }
+
+            this.PinUnPinCommandButton.UpdateLayout();
+
+        }
+
+
     }
 }

@@ -10,7 +10,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>fada56d9-3d7a-4dac-a805-c554fc3cc9d4</PackageIdentityName>
     <IntermediateOutputPath>E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>630F631E9BCD16F018489432662E70CD40CB4620EF23F045616418F288B13058</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>51A574FA9D76BC77BF761A9C6475763A5155E2B568C43C4CB8334260F25E68A2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fada56d9-3d7a-4dac-a805-c554fc3cc9d4_1.0.0.0_neutral__etx8vwx63mtgj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fada56d9-3d7a-4dac-a805-c554fc3cc9d4_etx8vwx63mtgj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fada56d9-3d7a-4dac-a805-c554fc3cc9d4</RegisteredPackageID>
@@ -22,17 +22,17 @@
     <AppXManifest Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-17T09:16:23.377</Modified>
+      <Modified>2016-02-18T08:58:48.609</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.exe">
       <PackagePath>OneAppAllOfWindows.exe</PackagePath>
-      <Modified>2016-02-17T09:16:21.201</Modified>
+      <Modified>2016-02-18T08:58:41.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\BackTasks\bin\Debug\BackTasks.winmd">
       <PackagePath>BackTasks.winmd</PackagePath>
-      <Modified>2016-02-16T09:25:57.575</Modified>
+      <Modified>2016-02-18T08:58:39.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.xr.xml">
       <PackagePath>OneAppAllOfWindows.xr.xml</PackagePath>
-      <Modified>2016-02-17T09:16:20.967</Modified>
+      <Modified>2016-02-18T07:19:20.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Details.xbf">
       <PackagePath>Places\Details.xbf</PackagePath>
-      <Modified>2016-02-17T09:16:20.981</Modified>
+      <Modified>2016-02-18T07:19:21.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Index.xbf">
       <PackagePath>Places\Index.xbf</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-02-17T09:16:21.325</Modified>
+      <Modified>2016-02-18T08:58:41.386</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

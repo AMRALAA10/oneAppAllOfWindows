@@ -107,6 +107,7 @@
     <Compile Include="MyTimeTableFeeds.cs" />
     <Compile Include="NotifyUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateSeconderyTiles.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

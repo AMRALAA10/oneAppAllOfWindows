@@ -38,6 +38,12 @@
             <Task Type="timer" />
           </BackgroundTasks>
         </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BackTasks.UpdateSeconderyTiles">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
       </Extensions>
     </Application>
   </Applications>
@@ -49,6 +55,7 @@
       <InProcessServer>
         <Path>CLRHost.dll</Path>
         <ActivatableClass ActivatableClassId="BackTasks.MyTimeTableFeeds" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackTasks.UpdateSeconderyTiles" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="BackTasks.NotifyUser" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
