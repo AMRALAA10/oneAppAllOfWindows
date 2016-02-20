@@ -10,9 +10,9 @@
 * secondary tiles :broken_heart:----------------------------------working on it----------------------Done
 * global styles------------------------------------------working on it----------------------Done
 * local styles--------------------------------------------working on it----------------------Done
-* soundcreation
+* background download-----------------------------------------working on it
 * Authentication
-* background download
+* soundcreation
 
 
 [here is a link with samples that woulld help](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples)

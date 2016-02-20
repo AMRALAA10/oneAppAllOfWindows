@@ -22,13 +22,13 @@
     <AppXManifest Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-02-18T08:58:48.609</Modified>
+      <Modified>2016-02-20T15:12:41.275</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.exe">
       <PackagePath>OneAppAllOfWindows.exe</PackagePath>
-      <Modified>2016-02-18T08:58:41.272</Modified>
+      <Modified>2016-02-20T18:05:07.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\BackTasks\bin\Debug\BackTasks.winmd">
       <PackagePath>BackTasks.winmd</PackagePath>
@@ -66,11 +66,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\OneAppAllOfWindows.xr.xml">
       <PackagePath>OneAppAllOfWindows.xr.xml</PackagePath>
-      <Modified>2016-02-18T07:19:20.849</Modified>
+      <Modified>2016-02-20T18:05:07.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2016-02-14T10:17:20.645</Modified>
+      <Modified>2016-02-20T18:05:07.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Details.xbf">
       <PackagePath>Places\Details.xbf</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\Places\Index.xbf">
       <PackagePath>Places\Index.xbf</PackagePath>
-      <Modified>2016-02-17T09:16:20.984</Modified>
+      <Modified>2016-02-20T18:05:07.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\projects\visual studio 2015\Playing\OneAppAllOfWindows\OneAppAllOfWindows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-02-18T08:58:41.386</Modified>
+      <Modified>2016-02-20T15:13:31.206</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
